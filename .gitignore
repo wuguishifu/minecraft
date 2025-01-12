@@ -1,0 +1,9 @@
+data/**
+!data/
+!data/.gitkeep
+
+!data/banned-ips.json
+!data/banned-players.json
+!data/server.properties
+!data/whitelist.json
+
