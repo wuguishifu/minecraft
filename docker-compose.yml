@@ -9,6 +9,8 @@ services:
       EULA: true
       TYPE: FABRIC
       CREATE_CONSOLE_IN_PIPE: true
+      INIT_MEMORY: 4G
+      MAX_MEMORY: 16G
     ports:
       - 25565:25565
     volumes:
